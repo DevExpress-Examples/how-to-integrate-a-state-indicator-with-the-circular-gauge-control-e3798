@@ -9,7 +9,7 @@
 
 * [MainWindow.xaml](./CS/WpfApplication1/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfApplication1/MainWindow.xaml))
 <!-- default file list end -->
-# Display a State Indicator within a Circular Gauge
+# Display a State Indicator within a WPF Circular Gauge
 
 
 <p>The following sample shows how a State Indicator control can be integrated with the Circular Gauge control. This integration forces the State Indicator control to automatically change its state every time when a Value Indicator enters into a new range on a Circular Gauge.</p>
