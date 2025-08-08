@@ -13,9 +13,9 @@ This example connects a [`StateIndicatorControl`](https://docs.devexpress.com/WP
 
 Use the [StateIndicatorControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Gauges.StateIndicatorControl) when you need to:
 
-- Display status colors (for example: green, yellow, red) based on the current value.
-- Visually communicate thresholds or alerts.
-- Synchronize a state indicator with a circular gauge using data binding.
+- Change status colors (for example: green, yellow, red) based on the current value.
+- Visualize thresholds or alerts.
+- Synchronize a state indicator with a circular gauge through data binding.
 
 ## Implementation Details
 
@@ -46,7 +46,7 @@ The [`StateIndicatorControl`](https://docs.devexpress.com/WPF/DevExpress.Xpf.Gau
     dxga:AnalogGaugeControl.ValueIndicator="{Binding ElementName=needle}" />
 ```
 
-The control defines multiple states and presentations for different value ranges:
+The control defines multiple states for different value ranges:
 
 ```xaml
 <dxga:StateIndicatorControl.AdditionalStates>
@@ -68,7 +68,7 @@ The control defines multiple states and presentations for different value ranges
 </dxga:StateIndicatorControl.AdditionalStates>
 ```
 
-As the needle moves across scale ranges, the state indicator updates its appearance to reflect the current state.
+As the needle moves across a scale range, the state indicator updates its appearance to reflect the current state.
 
 ## Files to Review
 
