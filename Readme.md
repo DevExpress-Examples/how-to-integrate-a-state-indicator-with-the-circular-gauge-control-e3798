@@ -13,9 +13,9 @@ This example connects a [`StateIndicatorControl`](https://docs.devexpress.com/WP
 
 Use the [StateIndicatorControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Gauges.StateIndicatorControl) when you need to:
 
-- Change status colors (for example: green, yellow, red) based on the current value.
-- Visualize thresholds or alerts.
-- Synchronize a state indicator with a circular gauge through data binding.
+* Change status colors (for example: green, yellow, red) based on the current value.
+* Visualize thresholds or alerts.
+* Synchronize a state indicator with a circular gauge.
 
 ## Implementation Details
 
