@@ -68,7 +68,7 @@ The control defines multiple states for different value ranges:
 </dxga:StateIndicatorControl.AdditionalStates>
 ```
 
-As the needle moves across a scale range, the state indicator updates its appearance to reflect the current state.
+As the needle moves across the scale range, the state indicator updates its appearance to reflect the current state.
 
 ## Files to Review
 
